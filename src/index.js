@@ -14,7 +14,7 @@ import reportWebVitals from './reportWebVitals';
 import ScrollToTop from './ScrollToTop';
 import HR from './projects/HR';
 import ABTest from './projects/ABTest';
-import SEM from './projects/SEM';
+import Inventory from './projects/Inventory';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,7 +27,7 @@ ReactDOM.render(
         <Route path='/HR' element={<HR/>}/>
         <Route path='/mental-health' element={<MentalHealth />} />
         <Route path='AB-Testing' element={<ABTest/>}/>
-        <Route path='SEM' element={<SEM/>}/>
+        <Route path='/Inventory' element={<Inventory/>}/>
       </Routes>
     </Router>
   </React.StrictMode>,

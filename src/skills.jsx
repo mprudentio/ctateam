@@ -31,6 +31,10 @@ const Skills = () => {
                     <img className='w-20 mx-auto' src="./powerbi.png" alt="Powerbi icon" />
                     <p className='my-4'>Power BI</p>
                 </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                    <img className='w-20 mx-auto' src="./looker.png" alt="Powerbi icon" />
+                    <p className='my-4'>Looker Studio</p>
+                </div>
             </div>
       </div>
     </div>
