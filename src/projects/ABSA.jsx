@@ -5,7 +5,7 @@ const ABSA = () => {
     <div className='w-full h-full bg-[#0a192f]'>
         <div className='max-w-[1000px] mx-auto px-8 py-8  h-full'>
             <div>
-                <p className='text-white text-2xl font-bold'>HR Analytics</p>
+                <p className='text-white text-2xl font-bold'>Aspect-Based Sentiment Analysis</p>
                 <img className='w-full h-[400px] rounded-md mt-4' src="./sentiment-hero.jpg" alt="python icon" />
             </div>
             <div className='text-white mt-5'>
