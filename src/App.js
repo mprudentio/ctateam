@@ -12,7 +12,7 @@ function App() {
     <div>
       <Helmet>
               <meta charSet="utf-8" />
-              <title>Muhammad Prudentio</title>
+              <title>CTA Team</title>
             </Helmet>
       <Navbar /> 
       <Home />
