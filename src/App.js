@@ -16,10 +16,10 @@ function App() {
             </Helmet>
       <Navbar /> 
       <Home />
-      <About />
-      <Skills />
+      {/* <About />
+      <Skills /> */}
       <Work />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

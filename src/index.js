@@ -15,6 +15,7 @@ import ScrollToTop from './ScrollToTop';
 import HR from './projects/HR';
 import ABTest from './projects/ABTest';
 import Inventory from './projects/Inventory';
+import ABSA from './projects/ABSA';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +29,7 @@ ReactDOM.render(
         <Route path='/mental-health' element={<MentalHealth />} />
         <Route path='AB-Testing' element={<ABTest/>}/>
         <Route path='/Inventory' element={<Inventory/>}/>
+        <Route path='/Dashboard-ABSA' element={<ABSA/>}/>
       </Routes>
     </Router>
   </React.StrictMode>,

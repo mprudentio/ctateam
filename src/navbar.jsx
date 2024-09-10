@@ -22,18 +22,18 @@ function Navbar() {
           <Link to='home' smooth={true} duration={500}>  <li className='hover:border-b-2 hover:border-pink-600'>
             Home
           </li></Link>
-          <Link to='about' smooth={true} duration={500}>  <li className='hover:border-b-2 hover:border-pink-600'>
+          {/* <Link to='about' smooth={true} duration={500}>  <li className='hover:border-b-2 hover:border-pink-600'>
             About
           </li></Link>
           <Link to='skills' smooth={true} duration={500}>  <li className='hover:border-b-2 hover:border-pink-600'>
             Skills
-          </li></Link>
+          </li></Link> */}
           <Link to='work' smooth={true} duration={500}> <li className='hover:border-b-2 hover:border-pink-600'>
             Work
           </li> </Link>
-          <Link to='contact' smooth={true} duration={500}><li className='hover:border-b-2 hover:border-pink-600'>
+          {/* <Link to='contact' smooth={true} duration={500}><li className='hover:border-b-2 hover:border-pink-600'>
             Contact
-         </li> </Link>
+         </li> </Link> */}
         </ul>
 
 
@@ -51,18 +51,18 @@ function Navbar() {
            <Link onClick={handleClick} to='home' smooth={true} duration={500}> <li className='py-4 text-3xl'>
             Home
           </li></Link>
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}> <li className='py-4 text-3xl'>
+          {/* <Link onClick={handleClick} to='about' smooth={true} duration={500}> <li className='py-4 text-3xl'>
             About
           </li></Link>
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}> <li className='py-4 text-3xl'>
             Skills
-          </li></Link>
+          </li></Link> */}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}><li className='py-4 text-3xl'>
             Work
           </li></Link>
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}><li className='py-4 text-3xl'>
+          {/* <Link onClick={handleClick} to='contact' smooth={true} duration={500}><li className='py-4 text-3xl'>
             Contact
-          </li></Link>
+          </li></Link> */}
         </ul>
 
     {/* Social Icons */}
