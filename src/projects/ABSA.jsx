@@ -33,7 +33,7 @@ const ABSA = () => {
             </div> */}
             <div className='text-white mt-5'>
                 <p className='text-lg font-semibold'>Results</p>
-                <iframe title="ABSA Dashboard" className='w-full h-[600px]' src="https://app.powerbi.com/view?r=eyJrIjoiMDQxMmFlZDItNDkwZS00NGZiLWE1NDEtZDMyZTg4MmNkZDk3IiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+                {/* <iframe title="ABSA Dashboard" className='w-full h-[600px]' src="https://app.powerbi.com/view?r=eyJrIjoiMDQxMmFlZDItNDkwZS00NGZiLWE1NDEtZDMyZTg4MmNkZDk3IiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe> */}
                 {/* <p className='mt-5'>Unveiling Workforce Insights</p>
                 <ol className='list-decimal ml-5'>
                     <li><strong>Education Enigma:    </strong>   Employees with a high school diploma exhibit the highest attrition rate compared to their bachelor's, master's, and doctoral degree counterparts.</li>
